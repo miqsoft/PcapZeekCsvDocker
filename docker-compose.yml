@@ -1,0 +1,7 @@
+services:
+  zeek:
+    build: .
+    volumes:
+      - ./data:/home/logs
+      - ./pcaps:/home/pcaps
+
